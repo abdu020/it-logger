@@ -13,7 +13,7 @@ const TechListModal = () => {
   const getTechs = async () => {
     setLoading(true);
 
-    /* the techs in fetch comes from th db.json
+    /* the techs in fetch comes from the db.json
        and the reason we only need that is because
        we set up a proxy in package.json so we don't
        have to write out the whole localhost address. */

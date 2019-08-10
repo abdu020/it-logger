@@ -10,7 +10,7 @@ const EditLogModal = () => {
     if (message === "" || tech === "") {
       M.toast({ html: "Please enter a message and tech" });
     } else {
-      console.log(message, tech, attention);
+      // console.log(message, tech, attention);
 
       // Clear Fields
       setMessage("");
@@ -19,7 +19,7 @@ const EditLogModal = () => {
     }
   };
   return (
-    <div id="add-log-modal" className="modal" style={modalStyle}>
+    <div id="edit-log-modal" className="modal" style={modalStyle}>
       <div className="modal-content">
         <h4>Enter System Log</h4>
         <div className="row">
